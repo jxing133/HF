@@ -78,7 +78,11 @@
   .flexlarge .feat-more {margin: 6px 0 0 !important;}
   .flex-caption p {display: none;}
 }
-@media only screen and (min-width:200px)and (max-width:520px){
+@media only screen and (min-width:200px)and (max-width:550px){
   #custom #post-entry div.post-thumb {width: 80px;}
   #custom #post-entry article .post-right {margin: 0 0 0 100px;float:none;width:auto;}
-}@media only screen and (min-width:300px)and (max-width:770px){
+  .post-content ul li { height: 250px;}
+}
+@media only screen and (min-width:200px)and (max-width:380px){
+   .post-content ul li { height: 350px;}
+}
